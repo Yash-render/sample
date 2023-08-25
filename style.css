@@ -53,7 +53,7 @@ main {
         border: 1px solid #ccc;
         width: 300px;
         box-sizing: border-box;
-        height: calc(100% - 2rem)
+        height: 550px;
     }
 
 .book img {
@@ -81,5 +81,9 @@ h2 {
 
     .book {
         width: 80%;
+    }
+    button {
+        max-width: 100%;
+        word-wrap: break-word;
     }
 }
